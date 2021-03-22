@@ -38,6 +38,7 @@
 }
 
 #navbar_logo {
+  padding-left: 25px;
   background-size: 100%;
   display: flex;
   align-items: center;
@@ -141,7 +142,7 @@
   }
 
   #navbar_logo {
-    padding-left: 25px;
+
   }
 
   .navbar_toggle .bar {
