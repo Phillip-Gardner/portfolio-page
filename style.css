@@ -274,7 +274,7 @@
   }
 
   .highlight {
-    font-size: 18px;
+    text-decoration: underline;
     z-index: 100001;
   }
 
