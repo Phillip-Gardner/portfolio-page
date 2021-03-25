@@ -242,24 +242,24 @@
   }
 
   .hero_heading {
-    font-size: 42px;
+    font-size: 96px;
     margin-bottom: 24px;
-    color: white;
+   /* color: white;*/
  /*   font-family: 'Spartan', sans-serif;*/
   }
 
   .hero_heading span {
     color: grey;
 
-    background: #6D6027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*  background: #6D6027;
+    background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);
+    background: linear-gradient(to right, #D3CBB8, #6D6027);
     background-size: 100%;
 
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;*/
   }
 
   .hero_description {
@@ -267,14 +267,14 @@
 /*    font-family: 'Aleo', serif;*/
 
 
-    background: #6D6027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*    background: #6D6027;
+    background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);
+    background: linear-gradient(to right, #D3CBB8, #6D6027);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;*/
   }
 
   .highlight {
