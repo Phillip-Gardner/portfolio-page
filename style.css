@@ -2,16 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: , sans-serif;
   scroll-behavior: smooth;
-  /*  font-family: 'Raleway', sans-serif;*/
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Aleo', serif;
+  /*font-family: 'Spartan', sans-serif;*/
+}
+
+* h2 {
+  font-family: 'Spartan', sans-serif;
 }
 
 /* Navbar Styling */
 
 .navbar, .main, .services, .footer-container {
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Spartan', sans-serif;*/
 }
 
 .navbar {
@@ -48,14 +51,14 @@
   font-size: 2rem;
   color: white;
 
-  background-color: #ff8177;
+/*  background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;*/
 }
 
 .navbar_menu {
@@ -242,7 +245,7 @@
     font-size: 42px;
     margin-bottom: 24px;
     color: white;
-    font-family: 'Roboto Slab', serif;
+ /*   font-family: 'Spartan', sans-serif;*/
   }
 
   .hero_heading span {
@@ -261,7 +264,7 @@
 
   .hero_description {
     font-size: 42px;
-    font-family: 'Roboto Slab', serif;
+/*    font-family: 'Aleo', serif;*/
 
 
     background: #6D6027;  /* fallback for old browsers */
@@ -389,7 +392,7 @@
 
 .main_img-card {
   margin: 10px;
-  height: 500px;
+  height: 300px;
   width: 500px;
   border-radius: 4px;
   display: flex;
@@ -397,10 +400,6 @@
   justify-content: center;
   color: white;
   /*background-image:;*/
-}
-
-#card-2 {
-  background: #D9D9D9;
 }
 
 /* Mobile Responsiveness */
@@ -417,12 +416,11 @@
   }
 
   .main_img-container {
-    display: flex;
     justify-content: center;
   }
 
   .main_img-card {
-    height: 425px;
+    height: 350px;
     width: 425px;
   }
 
@@ -450,7 +448,7 @@
 
   .main_img-card {
     width: 250px;
-    height: 250px;
+    height: 120px;
   }
 
   .main_content h1 {
