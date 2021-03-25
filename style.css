@@ -9,6 +9,7 @@
 
 * h2 {
   font-family: 'Spartan', sans-serif;
+  letter-spacing: -2px;
 }
 
 /* Navbar Styling */
@@ -244,6 +245,7 @@
   .hero_heading {
     font-size: 96px;
     margin-bottom: 24px;
+    letter-spacing: -6px;
    /* color: white;*/
  /*   font-family: 'Spartan', sans-serif;*/
   }
