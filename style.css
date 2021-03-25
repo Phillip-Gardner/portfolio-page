@@ -222,7 +222,7 @@
   /* Main Section */
 
   .hero {
-    background: black;
+    background: white;
     padding: 200px 0;
   }
 
@@ -475,7 +475,7 @@
 /* Services Section */
 
 .services {
-  background: black;
+  background: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -485,7 +485,7 @@
 }
 
 .services h1 {
-  color: white;
+  color: grey;
   /*background gradient*/
   margin-bottom: 5rem;
   font-size: 2.5rem;
