@@ -532,12 +532,6 @@
   font-size: 20px;
 }
 
-.services_btn {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-
 .services_card button {
   color: white;
   padding: 14px 24px;
