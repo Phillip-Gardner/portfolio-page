@@ -188,7 +188,7 @@
 
 .hero {
   background: rgb(101,204,184);
-  background: linear-gradient(180deg, rgba(101,204,184,1) 27%, rgba(242,242,242,1) 100%);
+  background: linear-gradient(180deg, rgba(101,204,184,1) 55%, rgba(242,242,242,1) 100%);
   padding: 60px 0;
   height: calc(100vh - 64px);
   /*height: 100vh;*/
