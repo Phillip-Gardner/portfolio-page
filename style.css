@@ -14,12 +14,20 @@
 
 /* Navbar Styling */
 
+/*
+#182628
+#65CCB8
+#57BA98
+#3B945E
+#F2F2F2
+*/
+
 .navbar, .main, .services, .footer-container {
   /*font-family: 'Spartan', sans-serif;*/
 }
 
 .navbar {
-  background: #284b63;
+  background: #65CCB8;
   height: 64px;
   display: flex;
   flex-direction: column;
@@ -51,7 +59,7 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  color: white;
+  color: #F2f2f2;
   font-family: 'Spartan', sans-serif;
 
 /*  background-color: #ff8177;
@@ -75,7 +83,7 @@
 }
 
 .navbar_links {
-  color: white;
+  color: #F2f2f2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +111,7 @@
   width: 100%;
   border: none;
   outline: none;
-  background: white;
+  background: #F2f2f2;
 }
 
 .navbar_links:hover {
@@ -115,14 +123,14 @@
 .progress-container {
   width: 100%;
   height: 64px;
-  background: #284b63;
+  background: #65CCB8;
   position: absolute;
 }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 64px;
-  background: #D9D9D9;
+  background: #182628;
   width: 0%;
 }
 
@@ -172,7 +180,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: white;
+    background: #F2f2f2;
   }
 
   .navbar_item {
@@ -228,7 +236,7 @@
   /* Main Section */
 
   .hero {
-    background: white;
+    background: #65CCB8;
     padding: 60px 0;
     /*height: calc(100vh - 64px);*/
     height: 100vh;
@@ -252,7 +260,7 @@
     letter-spacing: -6px;
     line-height: 82px;
     align-items: center;
-   /* color: white;*/
+   /* color: #F2f2f2;*/
  /*   font-family: 'Spartan', sans-serif;*/
   }
 
@@ -268,7 +276,6 @@
   }*/
 
   .hero_heading span {
-    color: grey;
 
   /*  background: #6D6027;
     background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);
@@ -315,7 +322,7 @@
 /* About Section */
 
 .main {
-  background-color: #3C6E71;
+  background-color: #F2f2f2;
   padding: 4rem 0;
 }
 
@@ -333,14 +340,14 @@
 }
 
 .main_content {
-  color: white;
+  color: #182628;
   width: 100%;
   padding: 36px;
 }
 
 .main_content h2 {
   font-size: 4rem;
-  color: #D9D9D9;
+  color: #182628;
 }
 
 .main_content p {
@@ -372,7 +379,7 @@
 .main_btn a {
   position: relative;
   z-index: 2;
-  color: white;
+  color: #F2f2f2;
   text-decoration: none;
 }
 
@@ -389,7 +396,7 @@
 }
 
 .main_btn:hover {
-  color: white;
+  color: #F2f2f2;
 }
 
 .main_btn:hover:after {
@@ -401,7 +408,7 @@ html {
 }
 
 body {
-  background: #000;
+  background: #182628;
   position: relative;
   height: 100%;
 }
@@ -441,7 +448,7 @@ body {
   display: block;
   position: absolute;
   transform-origin: bottom right;
-  background: black;
+  background: #182628;;
   width: 4px;
   height: 25px;
   border-radius: 10px;
@@ -476,7 +483,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: #F2f2f2;
   /*background-image:;*/
 }
 
@@ -545,7 +552,7 @@ body {
 /* Services Section */
 
 .services {
-  background: white;
+  background: #182628;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -574,7 +581,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: #F2f2f2;
   /* background image gradient thing*/
   background-color: grey;
   transition: 0.3s ease-in;
@@ -601,20 +608,6 @@ body {
   text-align: center;
   margin-top: 24px;
   font-size: 20px;
-}
-
-.services_card button {
-  color: white;
-  padding: 14px 24px;
-  border: none;
-  outline: none;
-  border-radius: 4px;
-  background: black;
-  font-size: 1rem;
-}
-
-.services_card button:hover {
-  cursor: pointer;
 }
 
 .services_card:hover {
@@ -644,21 +637,12 @@ body {
 }
 
 .footer_container {
-  background: #3C6E71;
-  padding: 4rem 0;
+  background: #182628;
+  padding: 64px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#footer_logo {
-  color: white;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
 }
 
 .footer-links {
@@ -669,7 +653,7 @@ body {
 }
 
 .social_icon-link {
-  color: white;
+  color: #F2f2f2;
   font-size: 28px;
 }
 
@@ -677,7 +661,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px auto 0 auto;
+  margin: 0px auto 0 auto;
+}
+
+#details {
+  margin-top: 80px;
 }
 
 .social_icons {
