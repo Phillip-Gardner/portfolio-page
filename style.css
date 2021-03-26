@@ -653,6 +653,12 @@ body {
 
 /* Footer CSS */
 
+#headshot {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
 .footer_container {
   background: #3C6E71;
   padding: 4rem 0;
