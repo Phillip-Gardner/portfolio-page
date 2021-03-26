@@ -422,6 +422,7 @@
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
+  padding-bottom: 80px;
 }
 
 .services h1 {
@@ -518,10 +519,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px auto 0 auto;
-}
-
-#details {
-  margin-top: 80px;
 }
 
 .social_icons {
