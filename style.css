@@ -187,7 +187,8 @@
 /* Main Section */
 
 .hero {
-  background: #65CCB8;
+  background: rgb(101,204,184);
+  background: linear-gradient(180deg, rgba(101,204,184,1) 27%, rgba(242,242,242,1) 100%);
   padding: 60px 0;
   height: calc(100vh - 64px);
   /*height: 100vh;*/
@@ -429,7 +430,7 @@
   padding-bottom: 80px;
 }
 
-.services h1 {
+.services h3 {
   color: grey;
   /*background gradient*/
   margin-bottom: 5rem;
