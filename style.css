@@ -357,6 +357,10 @@
   /*background-image:;*/
 }
 
+.main_img-card img {
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
 /* Mobile Responsiveness */
 
 @media screen and (max-width: 1100px) {
