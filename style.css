@@ -337,33 +337,22 @@
   width: 100%;
 }
 
-.main_content h1 {
-  font-size: 2rem;
-  color: #D9D9D9;
-/*  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);*/
-/*  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;*/
-  margin-bottom: 32px;
-}
-
 .main_content h2 {
   font-size: 4rem;
   color: #D9D9D9;
-/*  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;*/
 }
 
 .main_content p {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
+}
+
+.main_content li {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  list-style-type: none;
 }
 
 .main_btn {
@@ -517,16 +506,12 @@ body {
     margin-bottom: 4rem;
   }
 
-  .main_content h1 {
-    font-size: 2.5rem;
-    margin-top: 2.5rem;
-  }
-
   .main_content h2 {
     margin-top: 3rem;
+    font-size: 3rem;
   }
 
-  .main_content p {
+  .main_content li {
     margin-top: 1rem;
     font-size: 1.5rem;
   }
@@ -539,16 +524,13 @@ body {
     width: 380px;
   }
 
-  .main_content h1 {
-    font-size: 2rem;
-    margin-top: 3rem;
-  }
-
   .main_content h2 {
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
-  .main_content p {
+  .main_content li {
     margin-top: 2rem;
   }
 
