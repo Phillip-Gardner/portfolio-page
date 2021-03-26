@@ -68,6 +68,11 @@
   height: 64px;
 }
 
+.highlight {
+  z-index: 100001;
+  font-size: 30px;
+}
+
 .navbar_links {
   color: #F2f2f2;
   display: flex;
@@ -77,11 +82,31 @@
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
+  position: relative;
+  padding: 4px 0;
+}
+
+.navbar_links::after {
+  position: absolute;
+  content: "";
+  top: 95%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #F2F2F2;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
 }
 
 .navbar_links:hover {
   color:  #FFF;
   transition: all 0.3s ease;
+}
+
+.navbar_links:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 /* The progress container */
@@ -177,11 +202,6 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-}
-
-.highlight {
-  text-decoration: underline;
-  z-index: 100001;
 }
 
 /* Main Section */
