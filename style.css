@@ -56,6 +56,7 @@
   font-size: 2rem;
   color: #F2f2f2;
   font-family: 'Spartan', sans-serif;
+  text-shadow: 1.3px 1.3px 0px #57BA98;
 }
 
 .navbar_menu {
@@ -208,7 +209,7 @@
 
 .hero {
   background: rgb(101,204,184);
-  background: linear-gradient(180deg, rgba(101,204,184,1) 55%, rgba(242,242,242,1) 100%);
+/*  background: linear-gradient(180deg, rgba(101,204,184,1) 55%, rgba(242,242,242,1) 100%);*/
   padding: 60px 0;
   height: calc(100vh - 64px);
   /*height: 100vh;*/
@@ -232,6 +233,7 @@
   letter-spacing: -6px;
   line-height: 82px;
   align-items: center;
+  text-shadow: 3px 3px 0px #57BA98;
  /* color: #F2f2f2;*/
 /*   font-family: 'Spartan', sans-serif;*/
 }
@@ -296,6 +298,7 @@
 .main_content h2 {
   font-size: 4rem;
   color: #182628;
+  text-shadow: 1.3px 1.3px 0px #3B945E;
 }
 
 .main_content li {
@@ -451,7 +454,7 @@
 }
 
 .services h3 {
-  color: grey;
+  color: #F2F2F2;
   /*background gradient*/
   margin-bottom: 3rem;
   font-size: 2.5rem;
@@ -465,7 +468,7 @@
 
 .services_card {
   margin: 10px;
-  height: 300px;
+  height: 360px;
   width: 300px;
   border-radius: 0px;
 /*  display: flex;
@@ -502,7 +505,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .services_card_front {
-  background-color: #bbb;
+  background-color: #182628;
   color: #F2F2F2;
 }
 
