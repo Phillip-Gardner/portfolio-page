@@ -475,9 +475,9 @@
   }
 }
 
-/* Services Section */
+/* experiences Section */
 
-.services {
+.experiences {
   background: #182628;
   display: flex;
   flex-direction: column;
@@ -487,7 +487,7 @@
   padding-bottom: 80px;
 }
 
-.services h3 {
+.experiences h3 {
   color: #F2F2F2;
   /*background gradient*/
   text-shadow: 1px 1px 0px #57BA98;
@@ -495,13 +495,13 @@
   font-size: 2.5rem;
 }
 
-.services_wrapper {
+.experiences_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
-.services_card {
+.experiences_card {
   margin: 10px;
   height: 360px;
   width: 300px;
@@ -517,7 +517,7 @@
 
 }
 
-.services_card_inner {
+.experiences_card_inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -526,11 +526,11 @@
   transform-style: preserve-3d;
 }
 
-.services_card:hover .services_card_inner {
+.experiences_card:hover .experiences_card_inner {
   transform: rotateY(180deg);
 }
 
-.services_card_front, .services_card_back {
+.experiences_card_front, .experiences_card_back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -539,17 +539,17 @@
 }
 
 /* Style the front side (fallback if image is missing) */
-.services_card_front {
+.experiences_card_front {
   background-color: #182628;
   color: #F2F2F2;
 }
 
-.services_card_front img {
+.experiences_card_front img {
  object-fit: cover;
 }
 
 /* Style the back side */
-.services_card_back {
+.experiences_card_back {
   background-color: #182628;
   transform: rotateY(180deg);
   color: #F2F2F2;
@@ -558,26 +558,26 @@
   justify-content: center;
 }
 
-.services_card h2 {
+.experiences_card h2 {
   text-align: center;
   margin-bottom: 12px;
   text-shadow: 0.7px 0.7px 0px #57BA98;
 }
 
-.services_card p {
+.experiences_card p {
   text-align: left;
   margin: 10px 15px 0px 20px;
   font-size: 18px;
 }
 
 @media screen and (max-width: 1300px) {
-  .services_wrapper {
+  .experiences_wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .services_wrapper {
+  .experiences_wrapper {
     grid-template-columns: 1fr;
   }
 }
