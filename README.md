@@ -1,4 +1,4 @@
-# portfolio-page
+# Portfolio-Page
 
 This is my portfolio website built from HTML, CSS and JavaScript.
 
